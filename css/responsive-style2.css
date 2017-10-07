@@ -1,0 +1,195 @@
+@media only screen and (max-width: 1285px){
+    div.moment-img .ratio{
+        margin-left: 15px;
+    }
+    #right-side .appointments .appointment-item .appointment-description p:nth-child(2){
+        font-size: 0.7em;
+    }
+    .ratio .ratio-bg{
+        width: 50px;
+    }
+    #right-side .like .like-item p{
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 1186px){
+    #right-side .appointments .appointment-item, #right-side .appointments .appointment-item .data-time, #right-side .appointments .appointment-item .thumb-moment{
+        min-height: 130px;
+    }
+    #right-side .appointments .appointment-item .data-time p{
+        margin-top: 15px;
+    }
+    #right-side .appointments .appointment-item .appointment-description p:nth-child(2){
+        font-size: 0.6em;
+    }
+    #right-side .appointments .appointment-item .ratio{
+        margin-left: -10px;
+    }
+    #right-side .chats .chats-item, #right-side .chats .chats-item .p-chat-img, #right-side .chats .chats-item .chats-description, #right-side .chats .chats-item .chats-img, #right-side .chats .chats-item .chats-img img{
+        height: 160px;
+    }
+}
+
+@media only screen and (max-width: 1085px){
+    #right-side header img.circle-profile{
+        width: 45px;
+        height: 45px;
+        margin-top: 25px;
+    }
+    .placetime{
+        height: 100px;
+    }
+    #right-side.fastalk .fastalk-moment .fastalk-img-circle, #right-side.fastalk .fastalk-moment .fastalk-description, #right-side.fastalk .fastalk-moment, #right-side.fastalk .fastalk-moment .fastalk-moment-img, #right-side.fastalk .fastalk-moment .fastalk-moment-img img{
+        height: 145px;
+    }
+}
+
+@media only screen and (max-width: 988px){
+    #right-side .like .like-item p{
+        margin: 0;
+    }
+    #right-side.fastalk .fastalk-moment .fastalk-description h5{
+        padding-right: 10px;
+    }
+    #right-side.fastalk .message-box{
+        width: 100%;
+    }
+    #right-side{
+        width: 100%;
+        z-index: 1000;
+        position: fixed;
+        left: 100%;
+        transition: all 1s;
+        transition-timing-function: ease-in-out;
+        transition-duration: 1.5s;
+    }
+    #right-side.show{
+        left: 0;
+    }
+    #right-side header{
+        width: 100%;
+    }
+    #left-side{
+        width: 100%;
+    }
+    #left-side header{
+        width: 100%;
+    }
+    div.moment-img{
+        height: 400px;
+    }
+    div.moment-img .ratio{
+        margin-left: 135px;
+    }
+    div.form-search{
+        width: 50%;
+    }
+    div.searchbtn{
+        left: 60%;
+    }
+    #left-side .ratio{
+        left: calc(100% - 215px);
+    }
+    #right-side header .message, #right-side header .technology, #right-side header .calendar, #right-side header .drop{
+        width: 20%;
+    }
+    #right-side header .message{
+        left: 20%;
+    }
+    #right-side header .technology{
+        left: 40%;
+    }
+    #right-side header .calendar{
+        left: 60%;
+    }
+    #right-side header .drop{
+        left: 80%;
+    }
+    #right-side .appointments .appointment-item .appointment-description p:nth-child(2){
+        font-size: 1em;
+    }
+    #right-side .appointments .appointment-item, #right-side .appointments .appointment-item .data-time, #right-side .appointments .appointment-item .thumb-moment{
+        min-height: 145px;
+    }
+    #right-side .appointments .appointment-item .ratio{
+        margin-left: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 767px){
+    div.moment-img{
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    img.slogo{
+        width: 30px;
+        height: 25px;
+        margin-top: 35px;
+    }
+    img.searchbtn{
+        width: 20px;
+        height: 20px;
+    }
+    img.left-side-menu{
+        width: 20px;
+        height: 20px;
+        margin-top: 35px;
+    }
+    img.filter{
+        width: 15px;
+        height: 15px;
+        margin-left: calc(50% - 8px);
+        margin-top: 38px;
+    }
+    img.add{
+        width: 20px;
+        height: 20px;
+        margin-top: 36px;
+        margin-left: calc(50% - 10px);
+    }
+    #right-side .appointments .appointment-item .ratio{
+        display: none;
+    }
+    #right-side .appointments .appointment-item .appointment-description{
+        width: 57%;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    #right-side .approve-pics .pic1 img, #right-side .approve-pics .pic2 img, #right-side .approve-pics .pic3 img, #right-side .approve-pics{
+        height: 150px;
+    }
+    #right-side .outdoor-momentos.active .item .item-ratio-img{
+        display: none;
+    }
+    #right-side .outdoor-momentos.active .item .item-desc{
+        width: 70%;
+    }
+    #right-side .outdoor-options{
+        font-size: .7em;
+    }
+    svg.outdoor-checked{
+        width: 20px !important;
+        height:  20px !important;
+        margin-top: 5px;
+    }
+
+}
+
+@media only screen and (max-width: 375px){
+    svg.message, svg.technology, svg.calendar,  svg.back-normal{
+    width: 20px !important;
+    }
+    #right-side header img.circle-profile{
+        width: 35px;
+        height: 35px;
+        margin-top: 30px;
+    }
+    #right-side.fastalk .fastalk-moment .fastalk-img-circle, #right-side.fastalk .fastalk-moment .fastalk-description, #right-side.fastalk .fastalk-moment, #right-side.fastalk .fastalk-moment .fastalk-moment-img, #right-side.fastalk .fastalk-moment .fastalk-moment-img img{
+        height: 160px;
+    }
+}

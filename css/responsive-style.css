@@ -1,0 +1,103 @@
+@media only screen and (max-width: 1186px){
+    .works-body{
+        height: 340px;
+    }
+    .works-footer button.light-green{
+        margin-top: 260px;
+    }
+    img.phone{
+        left: -45px;
+    }
+}
+@media only screen and (max-width: 988px){
+    .works-header p{
+        font-size: 0.7em;
+    }
+    .step-text h2{
+        margin-left: 40px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .step-text p{
+        padding-right: 45px;
+    }
+    .soci{
+    position: absolute;
+    right: -60px;
+    top:-180px;
+    }
+    span.right-line{
+        left: -10px;
+    }
+     span.left-line{
+        right: -10px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .soci{
+    position: absolute;
+    left: calc(50% - 80px);
+    top: -350px;
+    }
+    header#index ul{
+        margin-right: 25px;
+    }
+    section#works{
+        margin-top: 200px;
+    }
+
+}
+
+@media only screen and (max-width: 552px){
+    .works-header p{
+        font-size: 0.5em;
+    }
+     .works-body{
+        height: 540px;
+    }
+    .step-text h2{
+        font-size: 1.2em;
+    }
+    .works-footer button.light-green{
+        margin-top: 460px;
+    }
+    header#index ul>li{
+        margin: 10px 0;
+    }
+    header#index ul>li>a{
+        font-size: .8em;
+    }
+    header#index ul{
+        margin-right: 120px;
+    }
+     h2.work-h2{
+        font-size: 4em;
+    }
+    section#mural h2{
+        font-size: 4em;
+    }
+
+}
+@media only screen and (max-width: 425px){
+    header#index ul{
+        margin-right: 60px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    header#index ul{
+        margin-right: 60px;
+    }
+    .works-footer button.light-green{
+        margin-left: 20px;
+        width: 200px;
+    }
+    .works-header p{
+        font-size: .4em;
+    }
+}
+
+
+
+

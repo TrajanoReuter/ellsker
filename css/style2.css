@@ -1,0 +1,1620 @@
+@font-face{
+    font-family: 'Lato-Regular';
+    src: url('../fonts/Lato/Lato-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Lato-Light';
+    src: url('../fonts/Lato/Lato-Light.ttf');
+}
+
+@font-face{
+    font-family: 'Lato-LightItalic';
+    src: url('../fonts/Lato/Lato-LightItalic.ttf');
+}
+
+
+
+@font-face{
+    font-family: 'Narrow-Regular';
+    src: url('../fonts/Narrow/Narrow-Regular.ttf');
+}
+
+html, body{
+ height:100%;
+ position: relative;
+ background-color: #141721 !important;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.margin-top-30{
+    margin-top: 30px;
+}
+
+.margin-bottom-30{
+    margin-bottom: 30px;
+}
+.ratio{
+    width: 18%;
+    height: 125px;
+    background-color: transparent;
+    position: absolute;
+    left: 57%;
+}
+
+.ratio .ratio-bg{
+    background-color: #1a1d29;
+    width: 55px;
+    height: 30px;
+    border-radius: 40px;
+    position: relative;
+}
+
+.ratio .ratio-bg img.checked{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.ratio .ratio-bg .ratio-counter{
+    background-color: #33ece6;
+    height: 32px;
+    border-radius:30px;
+    min-width: 32px;
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    top: -1px;
+    right: -12px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    font-size: 1.1em;
+}
+
+
+/*LEFT-SIDE*/
+#left-side{
+    width: 65%;
+    height: 100%;
+    min-height: 100%;
+    background-color: #141721;
+    float: left;
+    z-index: 1;
+    overflow:auto;
+    overflow-x: hidden;
+}
+
+#left-side header{
+    background-color: #000;
+    width: 65%;
+    height: 90px;
+    max-height:90px;
+    position: fixed;
+    border-bottom: 1px #232336 solid;
+    z-index: 3;
+}
+
+div.leftnav{
+    width: 100%;
+    height: 90px;
+    position: relative;
+}
+
+div.slogo{
+    width: 10%;
+    min-height: 89px;
+    position: absolute;
+}
+
+img.slogo{
+    width: 60px;
+    height: 49px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+div.filter{
+    background-color: #433f3f;
+    min-height: 89px;
+    width: 10%;
+    position: absolute;
+    right: 10%;
+    cursor: pointer;
+}
+
+img.filter{
+    height: 30px;
+    width: 30px;
+    margin-top: 30px;
+    margin-left: calc(50% - 15px);
+
+}
+div.add{
+    background-color: #2de4de;
+    min-height: 89px;
+    width: 10%;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+img.add{
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    margin-left: calc(50% - 20px);
+}
+div.searchbtn{
+    background-color: transparent;
+    min-height: 89px;
+    width: 10%;
+    position: absolute;
+    right: 20%;
+    cursor: pointer;
+}
+img.searchbtn{
+    width: 40px;
+    height: 40px;
+}
+button.searchbtn{
+    outline: none;
+    background-color: transparent;
+    min-height: 89px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+div.form-search{
+    background-color: transparent;
+    min-height: 89px;
+    width: 60%;
+    position: absolute;
+    left: 10%;
+}
+
+div.form-search input{
+    margin-top: 35px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+}
+
+section#main{
+    width: 100%;
+    height: auto;
+    margin-top: 90px;
+    color: #000;
+}
+
+.moment-item{
+    padding: 0 !important;
+    background-color: transparent;
+    border: 1px solid #232336;
+    min-height: 530px;
+    overflow: hidden;
+}
+
+div.moment-img{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+div.moment-img .circle-box{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 6px #000;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+div.moment-img .circle-box img.circle-profile{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div.moment-img .ratio{
+    color: #fff;
+    font-family: 'Narrow-Regular';
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+div.moment-img .ratio img.checked{
+    margin-left: -27px;
+}
+
+img.moment-img{
+    width: 100%;
+    height: 250px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.moment-item .description {
+    background-color: #1a1d29;
+    color: #fff;
+    width: 100%;
+    height:100px;
+    max-height: 100px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.moment-item .description p{
+    padding-top: 15px;
+    letter-spacing: 1px;
+    font-size: 1em;
+    font-family: 'Narrow-Regular';
+}
+
+.placetime{
+    width: 100%;
+    height: 85px;
+    background-color: transparent;
+    border-bottom: 1px solid #232336;
+    font-family: 'Narrow-Regular';
+    color: #3b4055;
+}
+
+.placetime img.calendar{
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+}
+
+.placetime img.placeholder{
+    width: 14px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.placetime p.calendar{
+    padding-top: 15px;
+}
+
+.enterbutton{
+    width: 100%;
+    height: 90px;
+    background-color: transparent;
+}
+
+.enterbutton button.enterbutton{
+    width: 55%;
+    height: 38px;
+    outline: none;
+    display: inline-block;
+    background-color: transparent;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border: 2px solid #269696;
+    border-top: 2px solid #2cc1bd;
+    margin-top: 25px;
+    font-family: 'Narrow-Regular';
+    box-shadow: 2px 2px 12px #000;
+}
+
+#left-side .btn-left-side{
+    width: 10%;
+    height: 89px;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    left: 70%;
+}
+
+img.left-side-menu{
+    width: 40px;
+    height: 40px;
+    position: static;
+    margin-top: 25px;
+}
+
+/*RIGHT-SIDE*/
+
+#right-side{
+    width: 35%;
+    height: 100%;
+    min-height: 100%;
+    background-color: #fff;
+    float: right;
+    border-left: 1px #000 solid;
+    z-index: 2;
+    overflow:auto;
+    overflow-x: hidden;
+}
+
+#right-side header{
+    background-color: #fff;
+    width: 35%;
+    height: 90px;
+    max-height:90px;
+    position: fixed;
+    border-bottom: 1px #e6e6e6 solid;
+    z-index: 3;
+}
+
+#right-side header .options{
+    background-color: transparent;
+    width: 100%;
+    height: 90px;
+    position: relative;
+}
+
+#right-side header .back-normal{
+    width: 20%;
+    height: 90px;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#right-side header .message{
+    width: 25%;
+    height: 90px;
+    position: absolute;
+}
+
+#right-side header .technology{
+    width: 25%;
+    height: 90px;
+    position: absolute;
+    left: 25%;
+}
+
+#right-side header .calendar{
+    width: 25%;
+    height: 90px;
+    position: absolute;
+    left: 50%;
+}
+
+#right-side header .drop{
+    width: 25%;
+    height: 90px;
+    position: absolute;
+    left: 75%;
+}
+ svg.back-normal{
+        width: 40px !important;
+        position: static !important;
+        text-align: center;
+    }
+
+svg.message{
+    text-align: center;
+    position: static !important;
+    width: 40px !important;
+}
+
+.message.active path, .technology.active path, .calendar.active path{
+    fill: #33ece6;
+}
+
+svg.technology{
+    text-align: center;
+    position: static !important;
+    width: 40px !important;
+}
+
+svg.calendar{
+    text-align: center;
+    position: static !important;
+    width: 40px !important;
+}
+
+#right-side header img.drop{
+    width: 14px;
+    height: 12px;
+    position: static;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#right-side header img.circle-profile{
+    width: 55px;
+    height: 55px;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    position: static;
+    margin-top: 15px;
+}
+
+#right-side .right-option{
+    width: 100%;
+    height: 79px;
+    border-bottom: 1px #e6e6e6 solid;
+    margin-top: 90px;
+}
+
+#right-side .right-option.outdoor{
+    border: none !important;
+}
+
+#right-side  .right-option p{
+    color: #3b4055;
+    font-family: 'Narrow-Regular';
+    font-size: 1.2em;
+    letter-spacing: 3px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#right-side .appointments{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+
+#right-side .appointments .appointment-item{
+    width: 100%;
+    height: auto;
+    min-height: 125px;
+    border-bottom: 1px #e6e6e6 solid;
+    position: relative;
+    font-family: 'Narrow-Regular';
+    overflow: hidden;
+}
+
+#right-side .appointments .appointment-item .data-time{
+    height: 125px;
+    width: 18%;
+    background-color: #33ece6;
+    position: absolute;
+}
+
+#right-side .appointments .appointment-item .data-time .time{
+    width: 100%;
+    height: 39px;
+    margin-top: 80px;
+    background-color: #23ddd7;
+    position: absolute;
+    bottom: 0;
+}
+
+#right-side .appointments .appointment-item .data-time p{
+    text-shadow: 1px 1px 2px #ccc;
+}
+
+#right-side .appointments .appointment-item .data-time .data p>span.day{
+    font-size: 2.6em;
+}
+
+#right-side .appointments .appointment-item .data-time .data p>span.month{
+    font-size: 1.2em;
+}
+
+#right-side .appointments .appointment-item .data-time .time p{
+    margin-top: 10px;
+}
+
+#right-side .appointments .appointment-item .appointment-description{
+    width: 39%;
+    height: 125px;
+    background-color: transparent;
+    position: absolute;
+    left: 18%;
+    color: #3b4055;
+}
+
+#right-side .appointments .appointment-item .appointment-description p:first-child{
+    letter-spacing: 3px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#right-side .appointments .appointment-item .appointment-description p:nth-child(2){
+    font-size: 0.8em;
+}
+
+
+#right-side .appointments .appointment-item .appointment-description img.placeholder{
+    width: 12px;
+    height: 22px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#right-side .appointments .appointment-item .ratio{
+    margin-top: 25px;
+}
+
+
+#right-side .appointments .appointment-item .thumb-moment{
+    height: 125px;
+    width: 25%;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    background-color: transparent;
+    left: 75%;
+}
+
+img.thumb-moment{
+    width: 100%;
+    height: auto;
+}
+
+#right-side .chats{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+
+#right-side .chats .chats-item{
+    width: 100%;
+    height: auto;
+    min-height: 145px;
+    background-color: transparent;
+    border-bottom: 1px #e6e6e6 solid;
+    position: relative;
+    overflow: hidden;
+}
+
+#right-side .chats .chats-item .p-chat-img{
+    width: 20%;
+    height: auto;
+    min-height: 145px;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+}
+
+#right-side .chats .chats-item .p-chat-img img{
+    width: 55px !important;
+    height: 55px !important;
+    text-align: center;
+    vertical-align: middle;
+    outline: none;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: calc(50% - 29px);
+    margin-top: 40px;
+}
+
+#right-side .chats .chats-item .chats-description{
+    width: 55%;
+    height: auto;
+    min-height: 145px;
+    background-color: transparent;
+    position: absolute;
+    left: 20%;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#right-side .chats .chats-item .chats-description p:first-child{
+    color: #2fe7e1;
+    letter-spacing: 3px;
+    font-size: .9em;
+    margin-top: 10px;
+    font-family: 'Narrow-Regular';
+}
+
+#right-side .chats .chats-item .chats-description p:nth-child(2){
+    color: #a2a5af;
+    font-size: .9em;
+}
+
+#right-side .chats .chats-item .chats-description p:nth-child(3){
+    color: #3b4055;
+    font-size: .9em;
+}
+
+#right-side .chats .chats-item .chats-description p:nth-child(3)>span.time-ago{
+    color: #c7c7c7;
+    margin-right: 10px;
+}
+
+#right-side .chats .chats-item .chats-img{
+    width: 25%;
+    height: auto;
+    min-height: 145px;
+    background-color: transparent;
+    position: absolute;
+    left: 75%;
+    overflow: hidden;
+}
+
+#right-side .chats .chats-item .chats-img img{
+    width: 100%;
+    height: 145px;
+}
+
+#right-side.fastalk{
+    background-color: #f8f8f8;
+}
+
+#right-side.fastalk .right-option{
+    background-color: #fff;
+}
+
+#right-side.fastalk .fastalk-moment{
+    width: 100%;
+    background-color: #fff;
+    min-height: 125px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#right-side.fastalk .fastalk-moment .fastalk-img-circle{
+    width:20%;
+    height: auto;
+    min-height: 125px;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+}
+
+#right-side.fastalk .fastalk-moment .fastalk-img-circle img{
+    width: 55px !important;
+    height: 55px !important;
+    position: static;
+    text-align: center;
+    vertical-align: middle;
+    outline: none;
+    margin-left: calc(50% - 30px);
+    margin-top: 40px;
+    border-radius: 50%;
+}
+
+#right-side.fastalk .fastalk-moment .fastalk-description{
+    width:55%;
+    height: auto;
+    min-height: 125px;
+    background-color: transparent;
+    position: absolute;
+    left: 20%;
+    overflow: hidden;
+}
+
+#right-side.fastalk .fastalk-moment .fastalk-description p{
+    color: #9497a3;
+    font-size: 0.9em;
+    font-family: 'Narrow-Regular';
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+#right-side.fastalk .fastalk-moment .fastalk-description p>span.calendar>img{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+#right-side.fastalk .fastalk-moment .fastalk-description p>span.placeholder>img{
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+#right-side.fastalk .fastalk-moment .fastalk-description h5{
+    font-family: 'Narrow-Regular';
+    color:#3b4055;
+    letter-spacing: 3px;
+    margin-top: 15px;
+    margin-left: 10px;
+    padding-right: 80px;
+}
+
+#right-side.fastalk .fastalk-moment .fastalk-description .ratio{
+    position: absolute;
+    left: calc(100% - 80px);
+    top: 30px;
+}
+
+#right-side.fastalk .fastalk-moment .fastalk-description .ratio .ratio-bg p{
+    margin-top: 0;
+    color: #fff;
+}
+
+#right-side.fastalk .fastalk-moment .fastalk-moment-img{
+    width:25%;
+    height: auto;
+    min-height: 125px;
+    background-color: transparent;
+    position: absolute;
+    left: 75%;
+    overflow: hidden;
+}
+
+#right-side.fastalk .fastalk-moment .fastalk-moment-img img{
+    width: 100%;
+    height: 125px;
+    position: static;
+    vertical-align: middle;
+    text-align: center;
+    overflow: hidden;
+    outline: none;
+}
+
+#right-side.fastalk .message-box{
+    width: 35%;
+    height: 90px;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px #ccc;
+    margin-top: 90px !important;
+}
+
+#right-side.fastalk .message-box .message-box-itens{
+    width: 100%;
+    height: 90px;
+    background-color: transparent;
+    position: relative;
+}
+
+#right-side.fastalk .message-box .add{
+    width: 15%;
+    height: 90px;
+    background-color: #433f3f;
+    position: absolute;
+    left: 0%;
+    overflow: hidden;
+}
+
+
+#right-side.fastalk .message-box .send-message{
+    width: 70%;
+    height: 90px;
+    background-color: transparent;
+    position: absolute;
+    overflow: hidden;
+    left: 15%;
+}
+
+#right-side.fastalk .message-box .send-message textarea{
+    width: 100%;
+    height: 90px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #9497a3;
+    font-family: 'Narrow-Regular';
+    padding: 15px;
+}
+
+#right-side.fastalk .message-box .btn-send-message{
+    width: 15%;
+    height: 90px;
+    background-color: #29e0da;
+    position: absolute;
+    left: 85%;
+    overflow: hidden;
+}
+
+#right-side.fastalk .message-box .btn-send-message button{
+    width: 100%;
+    height: 90%;
+    display: inline-block;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#right-side.fastalk .message-box .btn-send-message button>img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    outline: none;
+}
+
+
+#right-side.fastalk .message-box .add img{
+    width: 40px;
+    height: 40px;
+    position: static;
+    vertical-align: middle;
+    text-align: center;
+    outline: none;
+    margin-top: 25px;
+    margin-left: calc(50% - 21px);
+}
+
+#right-side.fastalk .chat-box{
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+#right-side.fastalk .chat-box .chat-reciver{
+    width: 100%;
+    height: auto;
+    background: transparent;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    outline: none;
+    border: none;
+    overflow: hidden;
+}
+
+#right-side.fastalk .chat-box .chat-reciver img{
+    width: 55px;
+    height: 55px;
+    position: static;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#right-side.fastalk .chat-box .chat-reciver .reciver-box{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: 1px 1px 4px #ddd;
+    font-family: 'Narrow-Regular';
+}
+
+#right-side.fastalk .chat-box .chat-reciver .reciver-box p.recived-text{
+    color: #9497a3;
+}
+
+#right-side.fastalk .chat-box .chat-reciver .reciver-box p.message-author{
+    color: #3b4055;
+}
+
+#right-side.fastalk .chat-box .chat-reciver .reciver-box p.message-author>span.date{
+    color: #c7c7c7;
+}
+
+
+#right-side.fastalk .chat-box .chat-sender{
+    width: 100%;
+    height: auto;
+    background: transparent;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    outline: none;
+    border: none;
+    overflow: hidden;
+}
+
+#right-side.fastalk .chat-box .chat-sender .sender-box{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background-color: #eefefd;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: 1px 1px 4px #ddd;
+    font-family: 'Narrow-Regular';
+}
+
+#right-side.fastalk .chat-box .chat-sender .sender-box p.sended-text{
+    color: #9497a3;
+}
+
+#right-side.fastalk .chat-box .chat-sender .sender-box p.message-author>span.date{
+    color: #afd5d3;
+}
+
+#right-side .approve-decline{
+    width: 100%;
+    height: 80px;
+    background-color: #f8f8f8;
+    position: relative;
+}
+
+#right-side .approve-decline .approve-decline-description{
+    width: 70%;
+    height: 80px;
+    position: absolute;
+    letter-spacing: 0;
+    overflow: hidden;
+    padding: 25px;
+}
+
+#right-side .approve-decline .approve-decline-description p{
+    color: #8d91a0;
+    font-family: 'Narrow-Regular';
+}
+
+#right-side .approve-decline .decline{
+    width: 15%;
+    height: 80px;
+    position: absolute;
+    overflow: hidden;
+    left: 70%;
+}
+
+#right-side .approve-decline .decline button{
+    width: 100%;
+    height: 80px;
+    outline: none;
+    display: inline-block;
+    border: none;
+    background-color: #433f3f;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#right-side .approve-decline .decline button img{
+    width: 30px;
+    height: 30px;
+    position: static;
+}
+
+#right-side .approve-decline .approve{
+    width: 15%;
+    height: 80px;
+    position: absolute;
+    overflow: hidden;
+    left: 85%;
+}
+
+#right-side .approve-decline .approve button{
+    width: 100%;
+    height: 80px;
+    outline: none;
+    display: inline-block;
+    border: none;
+    background-color: #2fe7e1;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#right-side .approve-decline .approve button img{
+    width: 30px;
+    height: 30px;
+    position: static;
+}
+
+#right-side .approve-pics{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+#right-side .approve-pics button.add-pic{
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    outline: none;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #2fe7e1;
+    position: absolute;
+    z-index: 3;
+    bottom: -50px;
+    right: 30px;
+    box-shadow: 1px 1px 6px #aaa;
+}
+
+#right-side .approve-pics button.add-pic img{
+    width: 35px;
+    height: 35px;
+}
+
+#right-side .approve-pics .pic1{
+    width: 35%;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#right-side .approve-pics .pic1 button, #right-side .approve-pics .pic2 button, #right-side .approve-pics .pic3 button{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    outline: none;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #46474d;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+#right-side .approve-pics .pic1 button img, #right-side .approve-pics .pic2 button img, #right-side .approve-pics .pic3 button img{
+    width: 20px;
+    height: 25px;
+}
+
+#right-side .approve-pics .pic2{
+    width: 35%;
+    height: 200px;
+    position: absolute;
+    left: 35%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#right-side .approve-pics .pic3{
+    width: 30%;
+    height: 200px;
+    position: absolute;
+    left: 70%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#right-side .approve-pics .pic1 img, #right-side .approve-pics .pic2 img, #right-side .approve-pics .pic3 img{
+    width: 100%;
+    height: 200px;
+    position: static;
+}
+
+#right-side .approve-decline-profile{
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    font-family: 'Narrow-Regular';
+    border-bottom: 1px #e6e6e6 solid;
+}
+
+#right-side .approve-decline-profile input, #right-side .approve-decline-profile select, #right-side .approve-decline-profile textarea{
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #f2f2f2;
+    font-size: 1.3em;
+    color: #9497a3;
+    margin-top: 10px;
+}
+
+#right-side .approve-decline-profile textarea{
+    border: none !important;
+}
+
+
+#right-side .approve-decline-profile input.data{
+    text-align: center;
+}
+
+#right-side .approve-decline-profile p.name{
+    color: #9497a3;
+    font-size: 1.1em;
+}
+
+#right-side .approve-decline-profile p.sex{
+    color: #9497a3;
+}
+
+#right-side .approve-decline-profile p.place{
+    color: #9b9ea9;
+}
+
+#right-side .approve-decline-profile p.place img{
+    width: 20px;
+    height: 28px;
+    margin-right: 5px;
+}
+
+#right-side .approve-decline-profile p.description{
+    color: #2fe7e1;
+    font-size: 1.1em;
+}
+
+#right-side .approve-decline-profile p.description-text{
+    color: #9b9ea9;
+}
+
+#right-side .like{
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    background-color: transparent;
+    font-family: 'Narrow-Regular';
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+}
+
+#right-side .like button.add-like{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    text-align: center;
+    border: none;
+    border-radius: 50%;
+    background-color: #2be2dc;
+    right: 45px;
+    top: 10px;
+    box-shadow: 1px 1px 6px #aaa;
+}
+
+#right-side .like button.add-like img{
+    width: 15px;
+    height: 15px;
+    position: static;
+}
+
+#right-side .like p{
+    font-size: 1.1em;
+    color: #2fe7e1;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+#right-side .like .like-item{
+    margin-bottom: 15px;
+}
+
+#right-side .like .like-item img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    outline: none;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#right-side .like .like-item p{
+    color: #3b4055;
+    text-align: center;
+    margin: 0;
+}
+
+#right-side .outdoor-options{
+    width: 100%;
+    height: 72px;
+    background-color: #f8f8f8;
+    border-bottom: 5px solid #ececec;
+    font-family: 'Narrow-Regular';
+    color: #3b4055;
+    letter-spacing: 3px;
+    padding: 20px;
+    line-height: 35px;
+    font-size: 1.1em;
+    margin: 0 auto;
+    position: relative;
+}
+
+#right-side .outdoor-options .outdoor-opt-bar{
+    width: 25%;
+    height: 5px;
+    position: absolute;
+    background-color: #33ece6;
+    bottom: -5px;
+    left: 0;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -ms-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+#right-side .outdoor-momentos, #right-side .outdoor-eventos, #right-side .outdoor-criados, #right-side .outdoor-checkeds{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    display: none;
+    overflow: hidden;
+}
+
+#right-side .outdoor-momentos.active, #right-side .outdoor-eventos.active, #right-side .outdoor-criados.active, #right-side .outdoor-checkeds.active{
+    display: block;
+}
+
+#right-side .outdoor-momentos.active .item{
+    width: 100%;
+    height: 165px;
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #e9e9e9;
+    font-family: 'Narrow-Regular';
+}
+
+#right-side .outdoor-momentos.active .item .item-pic{
+    width: 30%;
+    height: 165px;
+    position: absolute;
+    left: 0;
+    background-color: transparent;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#right-side .outdoor-momentos.active .item .item-pic img{
+    width: 100%;
+    height: 165px;
+    position: static;
+}
+
+#right-side .outdoor-momentos.active .item .item-desc{
+    width: 47%;
+    height: 165px;
+    position: absolute;
+    left: 30%;
+    background-color: transparent;
+    padding: 10px;
+    letter-spacing: 3px;
+    color: #3b4055;
+}
+
+#right-side .outdoor-momentos.active .item .item-ratio-img{
+    width: 23%;
+    height: 165px;
+    position: absolute;
+    background-color: transparent;
+    text-align: center;
+    vertical-align: middle;
+    left: 77%;
+}
+
+#right-side .outdoor-momentos.active .item .item-ratio-img .ratio{
+    width: 100%;
+    left: calc(50% - 35px) !important;
+    top: 15px;
+}
+
+#right-side .outdoor-momentos.active .item .item-ratio-img img.ratio-img{
+    width: 55px;
+    height: 55px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    box-shadow: 1px 1px 8px #ddd;
+    margin-top: 65px;
+}
+
+#right-side .outdoor-momentos.active .item .item-ratio-img .ratio .ratio-bg img{
+    margin-right: 25px;
+}
+
+
+
+#right-side .outdoor-momentos.active .item .item-desc p:first-child{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#right-side .outdoor-momentos.active .item .item-desc p:nth-child(2){
+    color: #9497a3;
+    font-size: .9em;
+    letter-spacing: 0;
+}
+
+#right-side .outdoor-momentos.active .item .item-desc p:nth-child(2) img{
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+
+#right-side .outdoor-momentos.active .item .item-desc p:nth-child(3){
+    color: #9497a3;
+    font-size: .9em;
+    letter-spacing: 0;
+}
+
+#right-side .outdoor-momentos.active .item .item-desc p:nth-child(3) img{
+    width: 15px;
+    height: 22px;
+    margin-right: 13px;
+}
+
+#right-side .outdoor-options .outdoor-item1, #right-side .outdoor-options .outdoor-item2, #right-side .outdoor-options .outdoor-item3, #right-side .outdoor-options .outdoor-item4{
+    cursor: pointer;
+}
+
+svg.outdoor-checked{
+    text-align: center;
+    position: static !important;
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.outdoor-checked path{
+    fill: #3b4055;
+}
+
+#right-side .outdoor-checkeds .item{
+    width: 100%;
+    height: 110px;
+    background-color: transparent;
+    font-family: 'Narrow-Regular';
+    border-bottom: 1px solid #e9e9e9;
+    overflow: hidden;
+}
+
+#right-side .outdoor-checkeds .item p:first-child{
+    color: #1a1d29;
+    margin-top: 20px;
+}
+
+#right-side .outdoor-checkeds .item p:nth-child(2){
+    color: #8d91a0;
+    font-size: .9em;
+}
+
+#right-side .outdoor-checkeds .item img.outdoor-checkeds{
+    width: 55px;
+    height: 55px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    position: static;
+    margin-left: calc(50% - 27px);
+    margin-top: 15px;
+}
+
+#right-side .outdoor-checkeds .item button.eye{
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    text-align: center;
+    vertical-align: middle;
+    outline: none;
+    display: inline-block;
+    margin-top: 35px;
+    margin-right: 15px;
+}
+
+#right-side .outdoor-checkeds .item button.eye img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+/*MODAL*/
+
+.modal-content{
+    background-color: #141721;
+}
+
+.modal-content p{
+    color: #13a29f;
+    font-family: 'Narrow-Regular';
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+
+.modal-header, .modal-body{
+    border: none;
+}
+
+.modal-title{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-family: 'Narrow-Regular';
+    letter-spacing: 3px;
+}
+
+button.btnclose{
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    outline: none;
+    display: inline-block;
+    float: right;
+    margin-right: 30px;
+    margin-top: 14px;
+}
+
+button.btnclose img{
+    width: 25px;
+    height: 25px;
+    transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+button.btnclose img:hover{
+    opacity: 0.7;
+}
+
+.modal img.placeholder{
+    width: 28px;
+    height: 32px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.modal img.calendar{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.filter-input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Narrow-Regular';]
+    font-weight: bold;
+    font-size: 1.4em !important;
+    border-bottom: 1px solid #13a29f;
+    padding-bottom: 10px;
+    appearance: none !important;
+    text-align: center;
+}
+
+select.filter-input:hover, select.filter-input:active, select.filter-input:visited{
+    background-color: #141721;
+    outline: none !important;
+}
+
+select.filter-input>option{
+    background-color: #141721;
+    outline: none !important;
+    border: none !important;
+}
+
+select.filter-input>option:hover{
+    background-color: #13a29f !important;
+    outline: none;
+}
+
+select.filter-input>option:visited{
+    background-color: #13a29f !important;
+    outline: none;
+}
+
+select.filter-input>option:active{
+    background-color: #13a29f !important;
+    outline: none !important;
+}
+
+.filter-container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+button.modal-cancel, button.modal-filter{
+    display: inline-block;
+    width: 100%;
+    height: 48px;
+    outline: none;
+    letter-spacing: 3px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+button.modal-cancel{
+    background-color: transparent;
+    border: 2px solid #d0d1d3;
+}
+
+button.modal-filter{
+    background-color: #13c5bf;
+    border: 2px solid #145d60;
+}
+
+
+/*RADIO AND CHECKBOX STYLE OF MODAL*/
+input[type="radio"], input[type="checkbox"]{
+    display: none;
+}
+
+.filter-radios, .filter-checkboxs {
+  margin: 0;
+  padding: 0;
+}
+
+.filter-radios:after, .filter-checkboxs:after {
+  content: "";
+  clear: both;
+}
+
+.filter-radio, .filter-checkbox {
+  border: 2px solid #323648;
+  box-sizing: border-box;
+  text-align: center;
+  height: 48px;
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.filter-radio label, .filter-checkbox label {
+  cursor: pointer;
+  display: block;
+  white-space: nowrap;
+  width: 100%;
+  height: 48px;
+  line-height: 45px;
+  letter-spacing: 3px;
+  font-size: 0.8em;
+}
+
+.filter-radios input:focus + label, .filter-checkbox input:focus + label {
+  outline: 2px solid #13c5bf;
+}
+
+.filter-radios input:checked + label, .filter-checkbox input:checked + label {
+  outline: 2px solid #13c5bf;
+}
+
+
+/*DROPDOWN*/
+
+.my-dropdown{
+    width: 50%;
+    height: 200px;
+    background-color: #f9f9f9;
+    box-shadow: -4px 4px 20px #ccc;
+    position: absolute;
+    right: 0;
+    top: 90px;
+    font-family: 'Narrow-Regular';
+    color: #73788a;
+    letter-spacing: 3px;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    display: none;
+}
+
+.my-dropdown.show{
+    display: block;
+}
+
+.my-dropdown ul>a{
+    outline: none;
+    text-decoration: none;
+    color: #73788a;
+}
+
+.my-dropdown ul>a>li{
+    padding-top: 35px;
+}
